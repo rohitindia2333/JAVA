@@ -1,0 +1,123 @@
+.main-box{
+    border: 0.5px solid black;
+    height: 350px;
+    width: 250px;
+    margin: auto;
+    display: block;
+    padding: 50px 0px 0px 100px;
+    background: linear-gradient(#ec9f05, #ff4e00);
+    box-shadow: 5px 5px 3px;
+}
+
+.avtar{
+    border: 2px solid;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 0px;
+    margin: auto;
+}
+.avtar img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.avtarbox{
+    width: 120px;
+    height: 120px;
+}
+.logininfo{
+    width: 190px;
+    height: 100px;
+}
+
+.login-btn{
+    font-family: "Robot", sans-serif;
+    font-size: 12px;
+    background: #1A1A1A;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transfomr;
+    -webkit-transition-property: box-shadow, transfomr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.login-btn:hover, .login-btn:focus, .login-btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    -webkit--tansform: scale(1.1);
+}
+
+.headiing3{
+font-family: sans-serif;
+text-align: center;
+}
+
+.teacher{
+    border: 2px solid red;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.main-box2{
+    border: 0.5px solid black;
+    height: 400px;
+    width: 250px;
+    margin: auto;
+    display: block;
+    padding: 50px 0px 0px 100px;
+    background: linear-gradient(#ec9f05, #ff4e00);
+    box-shadow: 3px 3px 3px;
+    padding: 10px;
+}
+
+.add-close-btn{
+
+    height: 45px;
+    width: 100%;
+    margin-top: 3px;
+    padding: 4px;
+}
+
+.add{
+    border: 1px solid green;
+    font-family: sans-serif;
+    font-size: 10px;
+    height: 100%;
+    color: #fff;
+    padding: 4px;
+    text-decoration: none;
+    background: rgb(26, 190, 26);
+}
+
+.close{
+    border: 1px solid red;
+    font-family: sans-serif;
+    font-size: 10px;
+    height: auto;
+    color: #fff;
+    padding: 4px;
+    text-decoration: none;
+    background: rgb(190, 26, 26);
+}
+.forgot-pass{
+    height: 10px;
+    width: 100%;
+    margin: 100px;
+}
